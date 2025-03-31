@@ -20,4 +20,4 @@ num_letters = input("How many letters should the password have? ")
 num_symbols = input("How many symbols should the password have? ")
 num_nums = input("How many numbers should the password have? ")
 
-for char in 
+for char in range(1, num_letters + 1)
