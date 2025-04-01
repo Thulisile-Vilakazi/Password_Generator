@@ -22,4 +22,12 @@ num_symbols = input("How many symbols should the password have? ")
 num_nums = input("How many numbers should the password have? ")
 
 for char in range(1, num_letters):
-    password.append(random)
+    password.append(random.choice(letters))
+
+for char in range(1, num_symbols):
+    password.append(random.choice(symbols))
+
+for char in range(1, num_nums):
+    password.append(random.choice(numbers))
+
+print(f" Your password is {(random.shuffle(password))}")
