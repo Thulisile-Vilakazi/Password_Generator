@@ -31,5 +31,6 @@ for char in range(1, int(num_nums)):
     password.append(random.choice(numbers))
 
 password = random.shuffle(password)
+password_str = ''.join(password)
 
-print(f" Your password is {password}")
+print(f" Your password is {password_str}")
