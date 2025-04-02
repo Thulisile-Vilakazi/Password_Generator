@@ -30,4 +30,6 @@ for char in range(1, int(num_symbols)):
 for char in range(1, int(num_nums)):
     password.append(random.choice(numbers))
 
-print(f" Your password is {(random.shuffle(password))}")
+password = random.shuffle(password)
+
+print(f" Your password is {password}")
