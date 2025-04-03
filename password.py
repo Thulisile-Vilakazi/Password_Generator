@@ -36,3 +36,5 @@ def password_generator():
     password_str = ''.join(password)
 
     print(f" Your password is {password_str}")
+
+password_generator(4)
