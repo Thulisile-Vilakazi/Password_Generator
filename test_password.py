@@ -44,3 +44,5 @@ class TestPasswordGenerator(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+#Tests are not loading correctly
